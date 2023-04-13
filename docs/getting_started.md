@@ -4,10 +4,10 @@ Follow https://github.com/fundamentalvision/BEVFormer/blob/master/docs/install.m
 VJ: I ran into a dependency conflicts when I followed the BEVFormer guideline. My solution is to specify version for
 some libs. Specifically,
 1. ....
-2. \# mmcv-full==1.4.0
+2. mmcv-full==1.4.0
 3. pip install opencv-python==3.4.17.63
 4. ....
-5. \# mmsegmentation==0.14.1
+5. mmsegmentation==0.14.1
 6. 
 ``` 
 pip install scikit-image==0.17.2
@@ -15,6 +15,9 @@ pip install numpy==1.21.3
 pip install matplotlib==3.5.2
 pip install pandas==1.2.5
 ```
+7. ....
+
+Note: .... means follow the official steps.
 
 ## Preparing Dataset
 1. Download the gts and annotations.json we provided. You can download our imgs.tar.gz or using the original sample files of the nuScenes dataset.

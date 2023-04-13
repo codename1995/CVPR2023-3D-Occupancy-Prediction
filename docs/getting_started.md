@@ -3,10 +3,14 @@ Follow https://github.com/fundamentalvision/BEVFormer/blob/master/docs/install.m
 
 ## Preparing Dataset
 1. Download the gts and annotations.json we provided. You can download our imgs.tar.gz or using the original sample files of the nuScenes dataset.
+And rename the `images` folder to `samples`.
 
-2. Download the CAN bus expansion data and maps [HERE](https://www.nuscenes.org/download).
+2. Download the CAN bus (v1.0) expansion data and maps [HERE](https://www.nuscenes.org/download).
 
-3. Organize your folder structure as below：
+3. Download v1.0-trainval_meta.tgz from [HERE](https://www.nuscenes.org/download) -- Full dataset (v1.0) -- Trainval -- Metadata. 
+And put the uncompressed folders under `./data/occ3d-nus`.
+
+4. Organize your folder structure as below：
 ```
 Occupancy3D
 ├── projects/

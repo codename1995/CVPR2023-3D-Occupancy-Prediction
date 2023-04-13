@@ -9,5 +9,6 @@ data/**/*.jpg
 ckpts/
 data/can_bus/
 data/occ3d-nus/
-tools/data_converter/__pycache__/
+data/occ3d-nus-mini/
+__pycache__/
 

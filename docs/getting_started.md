@@ -52,6 +52,12 @@ python tools/create_data.py occ --root-path ./data/occ3d-nus --out-dir ./data/oc
 ``` 
 
 ## Training
+before training, two libs are necessary:
+```angular2html
+pip install protobuf
+pip install tensorboard
+```
+
 ```
 ./tools/dist_train.sh projects/configs/bevformer/bevformer_base_occ.py 8
 ```
